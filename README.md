@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=170&color=0:0D1117,100:161B22&text=SARWAN%20YADAV&fontColor=58A6FF&fontSize=46&fontAlignY=40&desc=CSE%20%7C%20AI%2FML%20STUDENT%20%7C%20SOFTWARE%20DEVELOPER&descSize=13&descAlignY=65&animation=fadeIn" width="100%" alt="Sarwan Yadav | CSE AI/ML Developer"/>
@@ -7,7 +6,7 @@
 
 **Engineering ideas into useful software.**
 
-*Computer Science · AI/ML · Software Development*
+_Computer Science · AI/ML · Software Development_
 
 <br/>
 
@@ -99,7 +98,6 @@ A digital event project built with a modern React ecosystem, TypeScript, and Tan
 <div align="center">
 
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devsarwan&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=6" alt="Most used languages"/>
-
 
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=devsarwan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&rank_icon=github" alt="GitHub statistics"/>
 
