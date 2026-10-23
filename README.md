@@ -98,9 +98,10 @@ A digital event project built with a modern React ecosystem, TypeScript, and Tan
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=devsarwan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&rank_icon=github" alt="GitHub statistics"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devsarwan&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=6" alt="Most used languages"/>
 
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devsarwan&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=6" alt="Most used languages"/>
+
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=devsarwan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&rank_icon=github" alt="GitHub statistics"/>
 
 <br/><br/>
 
