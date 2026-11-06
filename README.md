@@ -12,7 +12,7 @@
   <br/>
   <strong>Computer Science & Engineering · AI / ML</strong>
   <br/>
-  <sub>Founder of EllowDigital · Software Architect · Full-Stack Engineer</sub>
+  <sub>Founder of EllowDigital · CS Student & Developer Learner</sub>
   <br/><br/>
   <a href="https://github.com/devsarwan"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
   <a href="https://github.com/EllowDigital"><img src="https://img.shields.io/badge/EllowDigital-0969DA?style=flat-square&logo=github&logoColor=white"/></a>
@@ -27,11 +27,11 @@
 
 ### 👨‍💻 About Me
 
-B.Tech Computer Science student specializing in **Artificial Intelligence & Machine Learning**. Focused on robust software architecture, desktop/backend solutions, and leading end-to-end software initiatives.
+B.Tech Computer Science student specializing in **Artificial Intelligence & Machine Learning**. Passionate about learning programming fundamentals, exploring application development, and building hands-on projects.
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
-<td width="65%" valign="top">
+<td width="63%" valign="top">
 
 <table width="100%">
   <thead>
@@ -55,15 +55,15 @@ B.Tech Computer Science student specializing in **Artificial Intelligence & Mach
     </tr>
     <tr>
       <td>⚙️ <strong>Interests</strong></td>
-      <td>Software Engineering, Backend Architecture</td>
+      <td>Application Development, Coding Projects</td>
     </tr>
   </tbody>
 </table>
 
 </td>
-<td width="3%" align="center"></td>
-<td width="32%" align="center" valign="middle">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Anmol-Baranwal/master/media/coding.gif" width="100%" style="border-radius: 8px;" alt="Coding Animation"/>
+<td width="2%" align="center"></td>
+<td width="35%" align="center" valign="middle">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=devsarwan&theme=tokyonight" width="100%" style="border-radius: 8px;" alt="Profile Summary Card"/>
 </td>
 </tr>
 </table>
@@ -74,7 +74,7 @@ B.Tech Computer Science student specializing in **Artificial Intelligence & Mach
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
-<td width="65%" valign="top">
+<td width="63%" valign="top">
 
 <table width="100%">
   <thead>
@@ -104,19 +104,19 @@ B.Tech Computer Science student specializing in **Artificial Intelligence & Mach
 </table>
 
 </td>
-<td width="3%" align="center"></td>
-<td width="32%" align="center" valign="middle">
-  <img src="https://raw.githubusercontent.com/absenth/absenth/output/github-contribution-grid-snake.svg" width="100%" alt="Snake Animation"/>
+<td width="2%" align="center"></td>
+<td width="35%" align="center" valign="middle">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=devsarwan&theme=tokyonight" width="100%" style="border-radius: 8px;" alt="Productive Time Card"/>
 </td>
 </tr>
 </table>
 
 ---
 
-### 🏢 Engineering & Projects
+### 🏢 Projects & Organization
 
 > **Founder & Solo Creator — [EllowDigital](https://github.com/EllowDigital)**  
-> Established on **June 26, 2024**, EllowDigital serves as the primary software organization where I single-handedly architect, design, develop, and maintain modern applications, desktop tools, and workflow automation systems.
+> Established on **June 26, 2024**, EllowDigital is my personal software organization where I build, experiment, and manage my learning projects, desktop tools, and applications solo.
 
 <div align="center">
   <br/>
