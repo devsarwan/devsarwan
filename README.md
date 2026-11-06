@@ -31,7 +31,7 @@ B.Tech Computer Science student specializing in **Artificial Intelligence & Mach
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
-<td width="63%" valign="top">
+<td width="60%" valign="top">
 
 <table width="100%">
   <thead>
@@ -61,9 +61,9 @@ B.Tech Computer Science student specializing in **Artificial Intelligence & Mach
 </table>
 
 </td>
-<td width="2%" align="center"></td>
-<td width="35%" align="center" valign="middle">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=devsarwan&theme=tokyonight" width="100%" style="border-radius: 8px;" alt="Profile Summary Card"/>
+<td width="3%" align="center"></td>
+<td width="37%" align="center" valign="middle">
+  <img src="https://github.com/user-attachments/assets/31bcb1e8-eb5b-4e10-8ae6-201d3166dfa0" width="100%" style="border-radius: 8px;" alt="Hacker Animation"/>
 </td>
 </tr>
 </table>
@@ -74,7 +74,7 @@ B.Tech Computer Science student specializing in **Artificial Intelligence & Mach
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr>
-<td width="63%" valign="top">
+<td width="60%" valign="top">
 
 <table width="100%">
   <thead>
@@ -104,9 +104,9 @@ B.Tech Computer Science student specializing in **Artificial Intelligence & Mach
 </table>
 
 </td>
-<td width="2%" align="center"></td>
-<td width="35%" align="center" valign="middle">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=devsarwan&theme=tokyonight" width="100%" style="border-radius: 8px;" alt="Productive Time Card"/>
+<td width="3%" align="center"></td>
+<td width="37%" align="center" valign="middle">
+  <img src="https://github.com/user-attachments/assets/d89cb739-4b66-4191-bc5d-ec627aa5ffe4" width="100%" style="border-radius: 8px;" alt="Tech Stack Animation"/>
 </td>
 </tr>
 </table>
