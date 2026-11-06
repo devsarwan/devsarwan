@@ -1,6 +1,7 @@
  <div align="center">
 
-# Sarwan Yadav
+# <img width="460" height="148" alt="ascii-art-1793947920691" src="https://github.com/user-attachments/assets/f0495fe1-20fb-4d8b-80cb-f87fb26d187a" />
+
 
 ### Computer Science & Engineering | AI/ML Student | Software Developer
 
