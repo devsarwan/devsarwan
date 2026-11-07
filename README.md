@@ -191,22 +191,7 @@ My focus is on building practical solutions, exploring technologies, and transfo
 
 <div align="center">
 
-  <!-- GitHub Statistics -->
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="./assets/overview.dark.svg"
-    />
-    <img
-      src="./assets/overview.light.svg"
-      width="100%"
-      alt="GitHub Statistics"
-    />
-  </picture>
-
-  <br/><br/>
-
-  <!-- Contribution Calendar and Streak -->
+  <!-- Contribution Streak and Calendar -->
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -215,13 +200,28 @@ My focus is on building practical solutions, exploring technologies, and transfo
     <img
       src="./assets/contributions.light.svg"
       width="100%"
-      alt="GitHub Contributions and Streak"
+      alt="GitHub Contribution Streak and Calendar"
     />
   </picture>
 
   <br/><br/>
 
-  <!-- Lifetime Contribution History -->
+  <!-- Contribution Momentum -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/momentum.dark.svg"
+    />
+    <img
+      src="./assets/momentum.light.svg"
+      width="100%"
+      alt="GitHub Contribution Momentum"
+    />
+  </picture>
+
+  <br/><br/>
+
+  <!-- Contribution History -->
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -234,10 +234,28 @@ My focus is on building practical solutions, exploring technologies, and transfo
     />
   </picture>
 
+  <br/><br/>
+
+  <!-- Animated Contribution Snake -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./assets/github-snake.svg"
+    />
+    <img
+      src="./assets/github-snake.svg"
+      width="100%"
+      alt="Animated GitHub Contribution Snake"
+    />
+  </picture>
+
 </div>
 
 ---
-
 
 <!-- ═════════════════════ FOOTER ═════════════════════ -->
 
