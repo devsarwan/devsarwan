@@ -1,0 +1,33 @@
+
+name: Update GitHub Analytics
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Generate profile cards
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: devsarwan
+          cards: overview,contributions,lifetime
+          output-dir: assets
+          themes: light,dark
+          commit: true
+          commit-message: "chore: update GitHub analytics"
