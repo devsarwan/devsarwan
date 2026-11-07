@@ -185,13 +185,14 @@ My focus is on building practical solutions, exploring technologies, and transfo
 ---
 
 
+
 <!-- ==================== GITHUB ANALYTICS ==================== -->
 
 ### GitHub Analytics
 
 <div align="center">
 
-  <!-- Contribution Streak and Calendar -->
+  <!-- Contribution Streak and 3D Calendar -->
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -200,7 +201,22 @@ My focus is on building practical solutions, exploring technologies, and transfo
     <img
       src="./assets/contributions.light.svg"
       width="100%"
-      alt="GitHub Contribution Streak and Calendar"
+      alt="GitHub Contribution Streak and 3D Calendar"
+    />
+  </picture>
+
+  <br/><br/>
+
+  <!-- Lifetime Contribution History -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/lifetime.dark.svg"
+    />
+    <img
+      src="./assets/lifetime.light.svg"
+      width="100%"
+      alt="Lifetime GitHub Contribution History"
     />
   </picture>
 
@@ -221,16 +237,16 @@ My focus is on building practical solutions, exploring technologies, and transfo
 
   <br/><br/>
 
-  <!-- Contribution History -->
+  <!-- Top Contributed Repositories -->
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="./assets/lifetime.dark.svg"
+      srcset="./assets/repositories.dark.svg"
     />
     <img
-      src="./assets/lifetime.light.svg"
+      src="./assets/repositories.light.svg"
       width="100%"
-      alt="GitHub Lifetime Contribution History"
+      alt="Top Repositories by Contributions"
     />
   </picture>
 
@@ -242,10 +258,6 @@ My focus is on building practical solutions, exploring technologies, and transfo
       media="(prefers-color-scheme: dark)"
       srcset="./assets/github-snake-dark.svg"
     />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="./assets/github-snake.svg"
-    />
     <img
       src="./assets/github-snake.svg"
       width="100%"
@@ -256,6 +268,7 @@ My focus is on building practical solutions, exploring technologies, and transfo
 </div>
 
 ---
+
 
 <!-- ═════════════════════ FOOTER ═════════════════════ -->
 
