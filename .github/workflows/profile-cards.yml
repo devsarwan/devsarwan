@@ -3,32 +3,106 @@ name: Update GitHub Contribution Analytics
 
 on:
   schedule:
+    # Daily at 08:00 AM IST (02:30 UTC)
     - cron: "30 2 * * *"
+
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Synchronize with the contribution-snake workflow.
 concurrency:
-  group: github-analytics
+  group: github-profile-assets
   cancel-in-progress: false
 
 jobs:
   generate:
+    name: Generate Contribution Cards
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
+      # Checkout complete repository history.
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
+      # Configure Git identity.
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # Generate contribution-focused SVG cards.
       - name: Generate contribution analytics
         uses: seijikohara/profile-cards-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: devsarwan
+
+          # Only contribution-related cards.
           cards: contributions,lifetime,momentum,repositories
+
           output-dir: assets
           themes: light,dark
           palette: green
+
           commit: true
           commit-message: "chore: update GitHub contribution analytics"
+
+      # Verify generated files.
+      - name: Verify generated SVG files
+        shell: bash
+        run: |
+          set -e
+
+          files=(
+            assets/contributions.dark.svg
+            assets/contributions.light.svg
+            assets/lifetime.dark.svg
+            assets/lifetime.light.svg
+            assets/momentum.dark.svg
+            assets/momentum.light.svg
+            assets/repositories.dark.svg
+            assets/repositories.light.svg
+          )
+
+          for file in "${files[@]}"; do
+            if [[ ! -s "$file" ]]; then
+              echo "::error::Missing or empty SVG: $file"
+              exit 1
+            fi
+
+            if ! grep -q '<svg' "$file"; then
+              echo "::error::Invalid SVG: $file"
+              exit 1
+            fi
+
+            echo "Verified: $file"
+          done
+
+          echo "All contribution cards generated successfully."
+
+      # Push any remaining changes safely.
+      - name: Commit and push changes
+        shell: bash
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -e
+
+          git add assets/
+
+          if git diff --cached --quiet; then
+            echo "No additional changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update contribution analytics"
+
+          git pull --rebase origin "$BRANCH"
+
+          git push origin "HEAD:$BRANCH"
