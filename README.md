@@ -184,34 +184,60 @@ My focus is on building practical solutions, exploring technologies, and transfo
 
 ---
 
-<!-- ═════════════════════ GITHUB ANALYTICS ═════════════════════ -->
 
-### 📊 GitHub Analytics
+<!-- ==================== GITHUB ANALYTICS ==================== -->
+
+### GitHub Analytics
 
 <div align="center">
 
-<img
-  src="https://github-stats-extended.vercel.app/api?username=devsarwan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&rank_icon=github"
-  width="48%"
-  alt="GitHub Statistics"
-/>
-<img
-  src="https://streak-stats.demolab.com?user=devsarwan&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E"
-  width="48%"
-  alt="GitHub Streak"
-/>
+  <!-- GitHub Statistics -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/overview.dark.svg"
+    />
+    <img
+      src="./assets/overview.light.svg"
+      width="100%"
+      alt="GitHub Statistics"
+    />
+  </picture>
 
-<br/><br/>
+  <br/><br/>
 
-<img
-  src="https://gitlyy.vercel.app/api/contribution?username=devsarwan&hide_border=true"
-  width="100%"
-  alt="GitHub Contribution Graph"
-/>
+  <!-- Contribution Calendar and Streak -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/contributions.dark.svg"
+    />
+    <img
+      src="./assets/contributions.light.svg"
+      width="100%"
+      alt="GitHub Contributions and Streak"
+    />
+  </picture>
+
+  <br/><br/>
+
+  <!-- Lifetime Contribution History -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/lifetime.dark.svg"
+    />
+    <img
+      src="./assets/lifetime.light.svg"
+      width="100%"
+      alt="GitHub Lifetime Contribution History"
+    />
+  </picture>
 
 </div>
 
 ---
+
 
 <!-- ═════════════════════ FOOTER ═════════════════════ -->
 
