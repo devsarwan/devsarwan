@@ -1,59 +1,41 @@
-
 name: Update GitHub Contribution Analytics
-
-on:
+'on':
   schedule:
-    # Daily at 08:00 AM IST (02:30 UTC)
-    - cron: "30 2 * * *"
-
-  workflow_dispatch:
-
+    - cron: 0 0 * * *
+  workflow_dispatch: null
 permissions:
   contents: write
-
-# Synchronize with the contribution-snake workflow.
 concurrency:
   group: github-profile-assets
   cancel-in-progress: false
-
 jobs:
   generate:
     name: Generate Contribution Cards
     runs-on: ubuntu-latest
     timeout-minutes: 15
-
     steps:
-      # Checkout complete repository history.
       - name: Checkout repository
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
           persist-credentials: true
-
-      # Configure Git identity.
       - name: Configure Git
-        run: |
+        run: >
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      # Generate contribution-focused SVG cards.
+          git config user.email
+          "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Generate contribution analytics
         uses: seijikohara/profile-cards-action@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: '${{ secrets.GITHUB_TOKEN }}'
           username: devsarwan
-
-          # Only contribution-related cards.
-          cards: contributions,lifetime,momentum,repositories
-
+          cards: 'contributions,lifetime,momentum,repositories'
           output-dir: assets
-          themes: light,dark
+          themes: 'light,dark'
           palette: green
-
           commit: true
-          commit-message: "chore: update GitHub contribution analytics"
-
-      # Verify generated files.
+          commit-message: 'chore: update GitHub contribution analytics'
       - name: Verify generated SVG files
         shell: bash
         run: |
@@ -85,12 +67,10 @@ jobs:
           done
 
           echo "All contribution cards generated successfully."
-
-      # Push any remaining changes safely.
       - name: Commit and push changes
         shell: bash
         env:
-          BRANCH: ${{ github.ref_name }}
+          BRANCH: '${{ github.ref_name }}'
         run: |
           set -e
 
